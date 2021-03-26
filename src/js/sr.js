@@ -34,7 +34,7 @@ export default function () {
   );
 
   ScrollReveal().reveal(
-    ".carousel",
+    ".text-carousel",
     assignProps(
       {
         delay: 1500,

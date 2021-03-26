@@ -22,7 +22,7 @@
 }
 
 // Words Carousel
-.carousel {
+.text-carousel {
   position: relative;
   width: 100%;
   font-size: 2em;
@@ -30,17 +30,17 @@
   height: 45px;
   display: inline-block;
 }
-.carousel .change_outer {
+.text-carousel .change_outer {
   text-align: left;
   height: 45px;
   overflow: hidden;
 }
-.carousel .change_outer .change_inner {
+.text-carousel .change_outer .change_inner {
   position: relative;
   animation: rotate 10s ease-in-out infinite;
   text-align: left;
 }
-.carousel .change_outer .element {
+.text-carousel .change_outer .element {
   display: block;
   font-weight: 700;
   color: $dark-blue-text;
