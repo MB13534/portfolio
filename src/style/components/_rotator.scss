@@ -1,0 +1,81 @@
+// Text Just Above the Carousel 'I am a'
+.pre {
+  font-size: 5.6rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: left;
+
+  @include respond(tab-land) {
+    font-size: 4rem;
+  }
+  @include respond(tab-port) {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  @include respond(phone) {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  @include respond(phone-xs) {
+    font-size: 2.8rem;
+  }
+}
+
+// Words Carousel
+.carousel {
+  position: relative;
+  width: 100%;
+  font-size: 2em;
+  line-height: 45px;
+  height: 45px;
+  display: inline-block;
+}
+.carousel .change_outer {
+  text-align: left;
+  height: 45px;
+  overflow: hidden;
+}
+.carousel .change_outer .change_inner {
+  position: relative;
+  animation: rotate 10s ease-in-out infinite;
+  text-align: left;
+}
+.carousel .change_outer .element {
+  display: block;
+  font-weight: 700;
+  color: $dark-blue-text;
+  white-space: nowrap;
+  font-size: 32px;
+  text-align: left;
+
+  @include respond(tab-port) {
+    text-align: center;
+  }
+}
+
+@keyframes rotate {
+  0%,
+  13% {
+    transform: translateY(0);
+  }
+  18%,
+  33% {
+    transform: translateY(-45px);
+  }
+  38%,
+  54% {
+    transform: translateY(-90px);
+  }
+  59%,
+  75% {
+    transform: translateY(-135px);
+  }
+  80%,
+  96% {
+    transform: translateY(-180px);
+  }
+
+  100% {
+    transform: translateY(-225px);
+  }
+}
