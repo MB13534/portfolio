@@ -42,6 +42,10 @@
         @include respond(phone) {
           font-size: 2rem;
         }
+
+        &-feature {
+          color: $primary-color;
+        }
       }
 
       & p > a {

@@ -84,7 +84,7 @@
               <img
                 class="img-fluid rounded shadow-lg"
                 height="auto"
-                width="300px"
+                width="405px"
                 src="./assets/profile.jpg"
                 alt="Profile Image"
               />
@@ -93,31 +93,46 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                I am a self-taught web developer; HTML, CSS, JS, and I have a
-                love for all things React & Redux. I also have experience with
-                PHP & WordPress, NodeJS, MongoDB, PostgreSQL, Firebase, Python,
+                I am a self-taught full stack web developer; HTML, CSS, JS, and I have a
+                love for all things React. I regularly work with PostgreSQL, NodeJS, Auth0, Mapbox, and various react libraries.  I also have experience with
+                Next.js, PHP, WordPress, Drupal, MongoDB, Firebase, Python,
                 and more.
               </p>
+
               <p class="about-wrapper__info-text">
-                I am a former restaurant general manager. Some of the units I
+                I currently work at
+
+                <a
+                        target="_blank"
+                        href="https://lrewater.com/"
+                >
+                  LRE Water</a>
+                as their lead web developer. LRE provides consulting services related to
+                planning, managing, and developing water at the highest level of technical excellence.
+                I develop and design data-driven dashboards for the water resources industry. I specialize in an
+                'End-to-End Experience' from design to implementation to support.
+              </p>
+
+              <p class="about-wrapper__info-text">
+                I am also a former restaurant general manager. Some of the units I
                 have operated include two of the country's highest volume
                 restaurants located in Disney World, multiple fine-dining
                 restaurants in Boston, a local high-energy tapas & wine bar, and
-                a 16-venue food-hall & Market right here in Denver -- during the
+                a 16-venue food-hall & Market in the heart of Denver -- during the
                 Covid-19 pandemic, no-less.
               </p>
               <p class="about-wrapper__info-text">
-                When i'm not coding, I also love to cook, compete at my CrossFit
-                gym, explore wonderful Colorado, play strategy board games, and
-                spend time with my amazing girlfriend Taylor and our diverse
-                family of fur-babies (Delphin the Newfoundland dog, Eddy the
-                cat, Pongo the bunny, and Hamm the hamster).
+                When I'm not coding, I also love to cook, compete at my CrossFit
+                gym, explore the beautiful Maine, play strategy board games, and
+                spend time with my amazing girlfriend, Taylor, and our diverse
+                family of fur-babies (Delphin 🐶, Elsa 🐺, Eddy
+                🐱, and Pongo 🐰).
               </p>
               <span class="d-flex mt-3">
                 <a
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="https://drive.google.com/file/d/15D6JB0FCu6lTWWrtvZ8_IQbcQQJ9ARXo/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1aqTVRPa9JLVZ026Q7DdrJgLv8kAM0KAQ/view?usp=sharing"
                 >
                   View Resume
                 </a>
@@ -135,9 +150,549 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
+          <!-- Clearwater Interactive Map -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                  <h3 class="project-wrapper__text-title">
+                  Clearwater Underground Water Conversation District Dashboard
+                  <div class="project-wrapper__text-title-feature">Featuring:</div>
+                  Interactive Public Map
+                </h3>
+
+                <div>
+                  <p class="mb-4">
+                    This is an interactive map created for CUWCD to help them inform the public and manage
+                    the groundwater in Bell County, Texas.
+                    <br />                    <br />
+                    It gives access & analytics to over 5000 wells, 40 map layers, and several databases. It can be
+                    searched & filtered, has graphs & charts, map drawing tools, PDF printing, excel exports, and reports.
+                    <br /> <br />
+                    It is built with React, Mapbox, NodeJS, PostgreSQL, and enhanced
+                    with Material UI & Styled Components. It also features Chart.js, React Query, Custom React Hooks,
+                    Sequelize, AWS EC2, Netlify and Heroku
+                  </p>
+                </div>
+                <a
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://clearwater.lre-up.com/map"
+                >
+                  See Live
+                </a>
+                <a
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/mb13534/clearwater"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <a
+                            href="https://clearwater.lre-up.com/map"
+                            target="_blank"
+                    >
+                      <div class="carousel-item active">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater1.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater2.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater3.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater4.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater5.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/clearwater6.jpg"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Clearwater Interactive Map -->
+
+          <!-- Idaho Time Series Compare -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Idaho Surface Water Coalition Dashboard
+                  <div class="project-wrapper__text-title-feature">Featuring:</div>
+                    Data Analytics Tools
+                </h3>
+
+
+                <div>
+                  <p class="mb-4">
+                    These are data analytic tools created for the Idaho Surface Water Coalition.
+<br /><br />
+                    The Time Series Comparison Graph allows users to select and compare multiple locations against multiple parameters to
+                    research & understand the trend & impact of each other. It includes print options, data exports, map integration,
+                    and a fully interactive & dynamic graph.
+                    <br /><br />
+                    The Hydrologic Health tool gives the user a better visual representation of many analytical aggregations.
+                    It allows them to adjust the timespan, filter, and explore locations in further detail.
+                    <br /><br />
+                    These tools are built with React, Mapbox, NodeJS, PostgreSQL, and enhanced
+                    with Material UI & Styled Components. They also feature Chart.js, React Query, Sequelize,
+                    AWS EC2, Netlify and Heroku
+
+                  </p>
+                </div>
+                <a
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://idaho-swc.lre-up.com/data-analysis-tools/time-series-comparison"
+                >
+                  See Live
+                </a>
+                <a
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/mb13534/idaho-swc"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <a
+                            href="https://idaho-swc.lre-up.com/data-analysis-tools/time-series-comparison"
+                            target="_blank"
+                    >
+                      <div class="carousel-item active">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/idaho1.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/idaho2.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/idaho3.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/idaho4.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/idaho5.jpg"
+                        />
+                      </div>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Idaho Time Series Compare -->
+
+
+          <!-- Denver Metro Graph Mode -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Denver Metro Water Quality Assessment Tool Dashboard
+                  <div class="project-wrapper__text-title-feature">Featuring:</div>
+                  Map Graphing Explorer
+                </h3>
+
+
+                <div>
+                  <p class="mb-4">
+                    This is a dashboard created for the South Platte Urban Waters Partnership.
+
+                    <br/> <br/>
+                    It gives decision-makers, researchers and the public the ability to explore the health of rivers &
+                    streams in the Denver Metro area through the use of interactive maps, graphs, reports and narratives
+                    to better understand pollution and to devise strategies for improving water quality.
+                    Numerous water quality parameters are scored by their respective benchmark, colored, and can be
+                    dialed in & viewed as a time series both daily & annually. Results can also be filtered dynamically by period of
+                    record, analysis type, amount of records available, parameter group, and parameter.  There is even a
+                    fuzzy search to locate wells by specific attributes.
+                    <br /><br />
+                    This tool is built with React, Mapbox, NodeJS, PostgreSQL, and enhanced
+                    with Material UI & Styled Components. It also features Fuse.js, Recharts, React Query, Sequelize, AWS EC2, Netlify and Heroku
+                  </p>
+                </div>
+                <a
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://spwqat.lre-up.com/data-access/map-explorer"
+                >
+                  See Live
+                </a>
+                <a
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/mb13534/spwqat"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <a
+                            href="https://spwqat.lre-up.com/data-access/map-explorer"
+                            target="_blank"
+                    >
+                      <div class="carousel-item active">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/spwqat1.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/spwqat2.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/spwqat3.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/spwqat4.jpg"
+                        />
+                      </div>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Denver Metro Graph Mode -->
+
+
+          <!-- CRUD -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Various CRUD User Interfaces
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    These are various CRUD UIs created to enable clients & internal staff to intuitively visualize &
+                    manipulate their data.
+
+                    <br/> <br/>
+                    Various applications include creating & updating entities, making relational associations between entities,
+                    managing rolodexes, inputting county/state required data, and giving clients the ability to add attachments
+                    to entries.
+                    <br /><br />
+                    These interfaces heavily rely on React, NodeJS, PostgreSQL, and are enhanced with Material UI (Table & UIX Grid) & Styled Components.
+                    They also feature React Query, Sequelize, Formik, Mapbox, context, and Redux. The dashboards are hosted
+                    on Netlify & Heroku, attachment storage is on AWS S3 Buckets, and user authentication is handled
+                    through Auth0.
+
+                  </p>
+                </div>
+                <span
+                        class="cta-btn text-color-main"
+                        style="cursor: default; font-size: 1.5rem;"
+                >
+                    Source Code & Live Demo Available on Request
+                  </span>
+
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/crud1.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/crud2.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/crud3.jpg"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                                class="d-block w-100"
+                                src="./assets/crud4.jpg"
+                        />
+                      </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/crud5.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/crud6.jpg"
+                      />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END CRUD -->
+
+
+          <!-- Time Series and Reporting -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  Additional Time Series Charts & Reports
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    These are various Charts and Reports created to enable clients & internal staff to visualize &
+                    study their data along with print visually appealing reports.
+
+                    <br/> <br/>
+                    Many of the time series graphs are highly dynamic and interactive. They can be zoomed in through both
+                    Y axes, the X axis, and can be panned in all directions. They are associated with tables and all data can be
+                    filtered & exported. Data is powered by PostgreSQL tables & views, and API calls are made with axios, React Query,
+                    NodeJS and Sequelize.
+
+                    <br/> <br/>
+                    Reports are styled to be easily printed straight to PDF or excel with no pre-edits or post-edits required by the user
+                    <br /><br />
+                    These tools heavily rely on React, NodeJS, PostgreSQL, and are enhanced with Material UI (Table & UIX Grid) & Styled Components.
+                    They also feature React Query, Sequelize, Fuse.js, Recharts and Chart.js. The dashboards are hosted
+                    on Netlify & Heroku, attachment storage is on AWS S3 Buckets, and user authentication is handled
+                    through Auth0.
+
+                  </p>
+                </div>
+                <span
+                        class="cta-btn text-color-main"
+                        style="cursor: default; font-size: 1.5rem;"
+                >
+                    Source Code & Live Demo Available on Request
+                  </span>
+
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs1.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs2.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs3.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs4.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs5.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs6.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/graphs7.jpg"
+                      />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Time Series and Reporting -->
+
+
+          <!-- Time Series and Reporting -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 align-self-center">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">
+                  LRE Rebranded Website
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    In charge of finalizing, deploying, and maintaining Leonard Rice Engineer's modern, Jamstack-based
+                    company website.
+                    <br/> <br/>
+                    All of the content and media is fully manageable via an open-source Headless CMS & API, Directus.
+                    It is built with Next.js, Directus CMS, Material UI, and React. It is also constantly evolving and
+                    fully responsive.
+                  </p>
+                </div>
+                <a
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://lrewater.com/"
+                >
+                  See Live
+                </a>
+                <a
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/mb13534/lrewater-com"
+                >
+                  Source Code
+                </a>
+
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12 align-self-center">
+              <div class="project-wrapper__image">
+                <div
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <a
+                            href="https://lrewater.com/"
+                            target="_blank"
+                    >
+                    <div class="carousel-item active">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/lre1.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/lre2.jpg"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                              class="d-block w-100"
+                              src="./assets/lre3.jpg"
+                      />
+                    </div>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /END Time Series and Reporting -->
+
+
+
           <!-- Ecommerce -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 align-self-center">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">
                   MERN Stack E-Commerce
@@ -170,11 +725,11 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 align-self-center">
               <div class="project-wrapper__image">
                 <div
                   class="carousel slide"
-                  data-interval="3000"
+                  data-interval="2400"
                   data-ride="carousel"
                 >
                   <div class="carousel-inner">
@@ -232,83 +787,9 @@
           </div>
           <!-- /END Ecommerce -->
 
-          <!-- Denver Poverty -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">
-                  Visualization of Denver Poverty by Neighborhood
-                </h3>
-                <div>
-                  <p class="mb-4">
-                    This is an open-source collaboration with the volunteer
-                    group, 'Code for Denver.' We build apps, software, and
-                    websites for non-profits, local government, and the
-                    community that serve their needs. This project uses the
-                    Mapbox API along with Denver public records to render a map
-                    that is more visually functional to possibly better aid
-                    future poverty reform agendas. We are working towards
-                    capturing a timeline of data to implement a toggle to
-                    illustrate how the neighborhoods developed over the years.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://mb13534.github.io/denver-poverty-map/"
-                >
-                  See Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/MB13534/denver-poverty-map"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <div
-                  class="carousel slide"
-                  data-interval="3000"
-                  data-ride="carousel"
-                >
-                  <div class="carousel-inner">
-                    <a
-                      href="https://mb13534.github.io/denver-poverty-map/"
-                      target="_blank"
-                    >
-                      <div class="carousel-item active">
-                        <img
-                          class="d-block w-100"
-                          src="./assets/povertymap1.jpg"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          class="d-block w-100"
-                          src="./assets/povertymap2.jpg"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          class="d-block w-100"
-                          src="./assets/povertymap3.jpg"
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Denver Poverty -->
-
           <!-- Posh Bot -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 align-self-center">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">
                   Automated Poshmark, Mercari, and Facebook Marketplace Bot
@@ -338,11 +819,11 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 align-self-center">
               <div class="project-wrapper__image">
                 <div
                   class="carousel slide"
-                  data-interval="3000"
+                  data-interval="2400"
                   data-ride="carousel"
                 >
                   <div class="carousel-inner">
@@ -368,66 +849,70 @@
           </div>
           <!-- /END Posh Bot -->
 
-          <!-- Capacity Counter -->
+          <!-- Denver Poverty -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
+            <div class="col-lg-4 col-sm-12 align-self-center">
               <div class="project-wrapper__text">
                 <h3 class="project-wrapper__text-title">
-                  React & Firebase Restaurant Capacity Counter
+                  Visualization of Denver Poverty by Neighborhood
                 </h3>
                 <div>
                   <p class="mb-4">
-                    I created this project for a previous restaurant that I
-                    worked at. They needed to be able to track the capacity of
-                    their building that has four different entrances. Four users
-                    login and greet guests at each entrance to keep track of the
-                    capacity via Firebase. Created with React.
+                    This is an open-source collaboration with the volunteer
+                    group, 'Code for Denver.' We build apps, software, and
+                    websites for non-profits, local government, and the
+                    community that serve their needs. This project uses the
+                    Mapbox API along with Denver public records to render a map
+                    that is more visually functional to possibly better aid
+                    future poverty reform agendas. We are working towards
+                    capturing a timeline of data to implement a toggle to
+                    illustrate how the neighborhoods developed over the years.
                   </p>
                 </div>
                 <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://mb13534.github.io/MilkMarketCounter/"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://mb13534.github.io/denver-poverty-map/"
                 >
                   See Live
                 </a>
                 <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/MB13534/MilkMarketCounter"
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/MB13534/denver-poverty-map"
                 >
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-8 col-sm-12 align-self-center">
               <div class="project-wrapper__image">
                 <div
-                  class="carousel slide"
-                  data-interval="3000"
-                  data-ride="carousel"
+                        class="carousel slide"
+                        data-interval="2400"
+                        data-ride="carousel"
                 >
                   <div class="carousel-inner">
                     <a
-                      href="https://mb13534.github.io/MilkMarketCounter/"
-                      target="_blank"
+                            href="https://mb13534.github.io/denver-poverty-map/"
+                            target="_blank"
                     >
                       <div class="carousel-item active">
                         <img
-                          class="d-block w-100"
-                          src="./assets/capacity1.jpg"
+                                class="d-block w-100"
+                                src="./assets/povertymap1.jpg"
                         />
                       </div>
                       <div class="carousel-item">
                         <img
-                          class="d-block w-100"
-                          src="./assets/capacity2.jpg"
+                                class="d-block w-100"
+                                src="./assets/povertymap2.jpg"
                         />
                       </div>
                       <div class="carousel-item">
                         <img
-                          class="d-block w-100"
-                          src="./assets/capacity3.jpg"
+                                class="d-block w-100"
+                                src="./assets/povertymap3.jpg"
                         />
                       </div>
                     </a>
@@ -436,186 +921,256 @@
               </div>
             </div>
           </div>
-          <!-- /END Capacity Counter -->
+          <!-- /END Denver Poverty -->
 
-          <!-- Eat Plants -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">
-                  Prototype Landing Page Based on my Friend's Vegan Food
-                  Business
-                </h3>
-                <div>
-                  <p class="mb-4">
-                    This was my first landing page. Basic HTML and CSS; no Sass.
-                    No grid or flex-box. Applied a Boostrap similar library and
-                    added media queries to make it responsive.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://mb13534.github.io/eat-fcking-plants/"
-                >
-                  See Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/MB13534/eat-fcking-plants"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <div
-                  class="carousel slide"
-                  data-interval="3000"
-                  data-ride="carousel"
-                >
-                  <div class="carousel-inner">
-                    <a
-                      href="https://mb13534.github.io/eat-fcking-plants/"
-                      target="_blank"
-                    >
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="./assets/plants1.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/plants2.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/plants3.jpg" />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Eat Plants -->
+<!--          &lt;!&ndash; Capacity Counter &ndash;&gt;-->
+<!--          <div class="row">-->
+<!--            <div class="col-lg-4 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__text">-->
+<!--                <h3 class="project-wrapper__text-title">-->
+<!--                  React & Firebase Restaurant Capacity Counter-->
+<!--                </h3>-->
+<!--                <div>-->
+<!--                  <p class="mb-4">-->
+<!--                    I created this project for a previous restaurant that I-->
+<!--                    worked at. They needed to be able to track the capacity of-->
+<!--                    their building that has four different entrances. Four users-->
+<!--                    login and greet guests at each entrance to keep track of the-->
+<!--                    capacity via Firebase. Created with React.-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="https://mb13534.github.io/MilkMarketCounter/"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn text-color-main"-->
+<!--                  href="https://github.com/MB13534/MilkMarketCounter"-->
+<!--                >-->
+<!--                  Source Code-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__image">-->
+<!--                <div-->
+<!--                  class="carousel slide"-->
+<!--                  data-interval="2400"-->
+<!--                  data-ride="carousel"-->
+<!--                >-->
+<!--                  <div class="carousel-inner">-->
+<!--                    <a-->
+<!--                      href="https://mb13534.github.io/MilkMarketCounter/"-->
+<!--                      target="_blank"-->
+<!--                    >-->
+<!--                      <div class="carousel-item active">-->
+<!--                        <img-->
+<!--                          class="d-block w-100"-->
+<!--                          src="./assets/capacity1.jpg"-->
+<!--                        />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img-->
+<!--                          class="d-block w-100"-->
+<!--                          src="./assets/capacity2.jpg"-->
+<!--                        />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img-->
+<!--                          class="d-block w-100"-->
+<!--                          src="./assets/capacity3.jpg"-->
+<!--                        />-->
+<!--                      </div>-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          &lt;!&ndash; /END Capacity Counter &ndash;&gt;-->
 
-          <!-- Rank the Dogs -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Rank the Dogs</h3>
-                <div>
-                  <p class="mb-4">
-                    This was a quick and simple project so I could explore and
-                    rank all the dogs on the internet. It uses vanilla JS, CSS
-                    grid, and is powered by the Dog API. When you vote, your
-                    chosen dog takes the winning square, and 8 new dogs are
-                    rendered.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://mb13534.github.io/rank-the-dogs/"
-                >
-                  See Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://codepen.io/mb13534/pen/OJRYeMd"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <div
-                  class="carousel slide"
-                  data-interval="3000"
-                  data-ride="carousel"
-                >
-                  <div class="carousel-inner">
-                    <a
-                      href="https://mb13534.github.io/rank-the-dogs/"
-                      target="_blank"
-                    >
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="./assets/dogs1.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/dogs2.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/dogs3.jpg" />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Rank the Dogs -->
+<!--          &lt;!&ndash; Eat Plants &ndash;&gt;-->
+<!--          <div class="row">-->
+<!--            <div class="col-lg-4 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__text">-->
+<!--                <h3 class="project-wrapper__text-title">-->
+<!--                  Prototype Landing Page Based on my Friend's Vegan Food-->
+<!--                  Business-->
+<!--                </h3>-->
+<!--                <div>-->
+<!--                  <p class="mb-4">-->
+<!--                    This was my first landing page. Basic HTML and CSS; no Sass.-->
+<!--                    No grid or flex-box. Applied a Boostrap similar library and-->
+<!--                    added media queries to make it responsive.-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="https://mb13534.github.io/eat-fcking-plants/"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn text-color-main"-->
+<!--                  href="https://github.com/MB13534/eat-fcking-plants"-->
+<!--                >-->
+<!--                  Source Code-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__image">-->
+<!--                <div-->
+<!--                  class="carousel slide"-->
+<!--                  data-interval="2400"-->
+<!--                  data-ride="carousel"-->
+<!--                >-->
+<!--                  <div class="carousel-inner">-->
+<!--                    <a-->
+<!--                      href="https://mb13534.github.io/eat-fcking-plants/"-->
+<!--                      target="_blank"-->
+<!--                    >-->
+<!--                      <div class="carousel-item active">-->
+<!--                        <img class="d-block w-100" src="./assets/plants1.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/plants2.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/plants3.jpg" />-->
+<!--                      </div>-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          &lt;!&ndash; /END Eat Plants &ndash;&gt;-->
 
-          <!-- Search the Dogs -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">
-                  Search the Dogs - React & Redux
-                </h3>
-                <div>
-                  <p class="mb-4">
-                    This was a another quick project so I could explore more
-                    dogs on the internet. It is built with ReactJS and uses
-                    Redux for state management. It uses Axios for get requests
-                    to a dog API. It builds info cards based on the JSON return.
-                    User can search results for breed, group, and temperament.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://mb13534.github.io/dog-search-react-redux/"
-                >
-                  See Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/MB13534/dog-search-react-redux"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <div
-                  class="carousel slide"
-                  data-interval="3000"
-                  data-ride="carousel"
-                >
-                  <div class="carousel-inner">
-                    <a
-                      href="https://mb13534.github.io/dog-search-react-redux/"
-                      target="_blank"
-                    >
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="./assets/search1.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/search2.jpg" />
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="./assets/search3.jpg" />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<!--          &lt;!&ndash; Rank the Dogs &ndash;&gt;-->
+<!--          <div class="row">-->
+<!--            <div class="col-lg-4 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__text">-->
+<!--                <h3 class="project-wrapper__text-title">Rank the Dogs</h3>-->
+<!--                <div>-->
+<!--                  <p class="mb-4">-->
+<!--                    This was a quick and simple project so I could explore and-->
+<!--                    rank all the dogs on the internet. It uses vanilla JS, CSS-->
+<!--                    grid, and is powered by the Dog API. When you vote, your-->
+<!--                    chosen dog takes the winning square, and 8 new dogs are-->
+<!--                    rendered.-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="https://mb13534.github.io/rank-the-dogs/"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn text-color-main"-->
+<!--                  href="https://codepen.io/mb13534/pen/OJRYeMd"-->
+<!--                >-->
+<!--                  Source Code-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__image">-->
+<!--                <div-->
+<!--                  class="carousel slide"-->
+<!--                  data-interval="2400"-->
+<!--                  data-ride="carousel"-->
+<!--                >-->
+<!--                  <div class="carousel-inner">-->
+<!--                    <a-->
+<!--                      href="https://mb13534.github.io/rank-the-dogs/"-->
+<!--                      target="_blank"-->
+<!--                    >-->
+<!--                      <div class="carousel-item active">-->
+<!--                        <img class="d-block w-100" src="./assets/dogs1.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/dogs2.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/dogs3.jpg" />-->
+<!--                      </div>-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          &lt;!&ndash; /END Rank the Dogs &ndash;&gt;-->
+
+<!--          &lt;!&ndash; Search the Dogs &ndash;&gt;-->
+<!--          <div class="row">-->
+<!--            <div class="col-lg-4 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__text">-->
+<!--                <h3 class="project-wrapper__text-title">-->
+<!--                  Search the Dogs - React & Redux-->
+<!--                </h3>-->
+<!--                <div>-->
+<!--                  <p class="mb-4">-->
+<!--                    This was a another quick project so I could explore more-->
+<!--                    dogs on the internet. It is built with ReactJS and uses-->
+<!--                    Redux for state management. It uses Axios for get requests-->
+<!--                    to a dog API. It builds info cards based on the JSON return.-->
+<!--                    User can search results for breed, group, and temperament.-->
+<!--                  </p>-->
+<!--                </div>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="https://mb13534.github.io/dog-search-react-redux/"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
+<!--                <a-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn text-color-main"-->
+<!--                  href="https://github.com/MB13534/dog-search-react-redux"-->
+<!--                >-->
+<!--                  Source Code-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-8 col-sm-12 align-self-center">-->
+<!--              <div class="project-wrapper__image">-->
+<!--                <div-->
+<!--                  class="carousel slide"-->
+<!--                  data-interval="2400"-->
+<!--                  data-ride="carousel"-->
+<!--                >-->
+<!--                  <div class="carousel-inner">-->
+<!--                    <a-->
+<!--                      href="https://mb13534.github.io/dog-search-react-redux/"-->
+<!--                      target="_blank"-->
+<!--                    >-->
+<!--                      <div class="carousel-item active">-->
+<!--                        <img class="d-block w-100" src="./assets/search1.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/search2.jpg" />-->
+<!--                      </div>-->
+<!--                      <div class="carousel-item">-->
+<!--                        <img class="d-block w-100" src="./assets/search3.jpg" />-->
+<!--                      </div>-->
+<!--                    </a>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
           <!-- /END Search the Dogs -->
         </div>
       </div>
@@ -660,13 +1215,15 @@
             <i class="fab fa-codepen"></i>
           </a>
           <a
-            href="https://drive.google.com/file/d/15D6JB0FCu6lTWWrtvZ8_IQbcQQJ9ARXo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aqTVRPa9JLVZ026Q7DdrJgLv8kAM0KAQ/view?usp=sharing"
             target="_blank"
           >
             <i class="fa fa-file"></i>
           </a>
         </div>
         <hr />
+        <h3 style="padding-top: 26px;">Michael Barry - 518.986.3906</h3>
+
       </div>
     </footer>
     <!-- /END Footer Section -->
