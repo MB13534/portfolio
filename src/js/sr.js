@@ -21,6 +21,18 @@ export default function () {
     )
   );
 
+    ScrollReveal().reveal(
+        ".section-subtitle",
+        assignProps(
+            {
+                delay: 500,
+                distance: "0px",
+                origin: "left",
+            },
+            defaultProps
+        )
+    );
+
   /* Hero Section */
   ScrollReveal().reveal(
     ".hero-title",
@@ -37,7 +49,7 @@ export default function () {
     ".text-carousel",
     assignProps(
       {
-        delay: 1500,
+        delay: 2000,
         origin: window.innerWidth > 768 ? "right" : "bottom",
       },
       defaultProps

@@ -37,7 +37,7 @@
 }
 .text-carousel .change_outer .change_inner {
   position: relative;
-  animation: rotate 10s ease-in-out infinite;
+  animation: rotate 12s ease-in-out infinite;
   text-align: left;
 }
 .text-carousel .change_outer .element {
@@ -54,28 +54,31 @@
 }
 
 @keyframes rotate {
-  0%,
-  13% {
+  0%, 12% {
     transform: translateY(0);
   }
-  18%,
-  33% {
+  12.5%, 24% {
     transform: translateY(-45px);
   }
-  38%,
-  54% {
+  25%, 37% {
     transform: translateY(-90px);
   }
-  59%,
-  75% {
+  37.5%, 49% {
     transform: translateY(-135px);
   }
-  80%,
-  96% {
+  50%, 62% {
     transform: translateY(-180px);
   }
-
-  100% {
+  62.5%, 74% {
     transform: translateY(-225px);
+  }
+  75%, 87% {
+    transform: translateY(-270px);
+  }
+  87.5%, 99% {
+    transform: translateY(-315px);
+  }
+  100% {
+    transform: translateY(-360px);
   }
 }
